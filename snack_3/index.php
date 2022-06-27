@@ -59,11 +59,11 @@ $posts = [
    $keys = array_keys($posts);
    for ($i=0; $i < count($posts); $i++) { 
         $date = $posts[$keys[$i]];
-        echo  "<div> {$keys[$i]} </div>";
+        echo  "<h2> {$keys[$i]} </h2>";
         for ($j=0; $j <  count($date); $j++) { 
             $post = $date[$j];
-            echo  "<div> {$post['author']} </div>";
-            echo  "<div> {$post['title']} </div>";
+            echo  "<h2> {$post['author']} </h2>";
+            echo  "<h3> {$post['title']} </h3>";
             echo  "<p> {$post['text']} </p>";
 
         }
