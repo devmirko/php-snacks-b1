@@ -54,7 +54,9 @@ $arr_partite = [
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body><?php
+<body>
+    <h2>13° Giornata di Campionato</h2>
+    <?php
     // associamo ad una variabile la funzione che conta gli elementi nell'array
 	$arr_length = count($arr_partite);
     // ciclo for nel array
